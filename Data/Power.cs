@@ -11,7 +11,7 @@ namespace SimpleDuelApi.Data
 
         //scale to 100, strength of this specific power for this specific person
         public int Level { get; set; }
-        public List<Hero> Heroes { get; set; }
-        public List<Villian> Villians { get; set; }
+        public List<Hero> Heroes { get; set; } = new List<Hero>();
+        public List<Villian> Villians { get; set; } = new List<Villian>();
     }
 }
